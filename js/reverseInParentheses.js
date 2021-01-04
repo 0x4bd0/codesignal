@@ -6,6 +6,8 @@ function reverseInParentheses(inputString) {
     }
    }
    
+   
+   
    function doMagic(inputString){
        let regex = /\(([^()]*)\)/i;
        let firstElem = regex.exec(inputString)[1]
