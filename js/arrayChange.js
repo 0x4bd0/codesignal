@@ -13,4 +13,4 @@ function arrayChange(inputArray) {
       return total
  
  }
- 
+    
