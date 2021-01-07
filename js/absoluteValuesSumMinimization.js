@@ -22,3 +22,5 @@ function absoluteValuesSumMinimization(a) {
     return result.length > 1 ? result.sort((a,b)=>a.elem>b.elem ? 1 : b.elem > a.elem ? -1 : 0)[0].elem : result[0].elem
 
 }
+
+// THE SIMPLE WAY :  return a[Math.ceil(a.length/2)-1]
