@@ -31,8 +31,6 @@ function stringsRearrangement(inputArray) {
           
     })
 
-    
-    
     return false
 
 }
