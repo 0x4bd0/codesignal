@@ -1,3 +1,4 @@
+// THE SIMPLE WAY :  return a[Math.ceil(a.length/2)-1]
 function absoluteValuesSumMinimization(a) {
     
     let tmp = []
@@ -23,4 +24,3 @@ function absoluteValuesSumMinimization(a) {
 
 }
 
-// THE SIMPLE WAY :  return a[Math.ceil(a.length/2)-1]
