@@ -9,7 +9,7 @@ function isBeautifulString(inputString) {
     
             if(alpha[nextIndex-1] !== undefined && unique.indexOf(alpha[nextIndex-1]) == -1) return false
             
-       if(((currentIndex - nextIndex ) >= 1) && ((arr.filter(item=>item==unique[i]).length - arr.filter(item=>item==unique[i-1]).length) > 0)) return false
+            if(((currentIndex - nextIndex ) >= 1) && ((arr.filter(item=>item==unique[i]).length - arr.filter(item=>item==unique[i-1]).length) > 0)) return false
        
             }
             return true
