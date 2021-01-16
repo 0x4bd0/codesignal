@@ -1,0 +1,1 @@
+const arithmeticExpression = (a, b, c) => (a+b==c || a-b==c  || a*b==c || a/b==c) ? true : false
