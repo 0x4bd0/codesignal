@@ -8,4 +8,3 @@ const leastFactorial = n => {
     }
     return count
 }
-guit git dzdzdzzd
