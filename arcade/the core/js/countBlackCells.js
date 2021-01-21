@@ -1,0 +1,2 @@
+const countBlackCells = (n, m) => n==1 || m==1 ? m*n : n==m ? n+(n-1)*2 : n + m - GreatestCommonDivisor(n, m) + (GreatestCommonDivisor(n, m) - 1) * 2
+const GreatestCommonDivisor = (a, b) => b == 0 ? a : GreatestCommonDivisor(b, a % b)
