@@ -1,0 +1,1 @@
+const createArray = size =>  Array(size).fill(1)
