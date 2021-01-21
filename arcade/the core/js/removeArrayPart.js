@@ -1,0 +1,1 @@
+const removeArrayPart= (inputArray, l, r) => [...inputArray.slice(0,l), ...inputArray.slice(r+1,inputArray.length) ]
