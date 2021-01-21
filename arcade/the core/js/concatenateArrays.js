@@ -1,0 +1,1 @@
+const concatenateArrays = (a,b) => [...a,...b]
