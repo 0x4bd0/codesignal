@@ -1,0 +1,1 @@
+const candles = (candles, makeNew) => candles + Math.floor((candles - 1) / (makeNew - 1))
